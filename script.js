@@ -25,55 +25,55 @@ const seeMoreBtn = document.getElementById('see-more-cards-btn');
 
 const additionalCards = [
     `<div class="card">
-    <img src="./src/f1.png" alt="Gyro Sandwich">
+    <img src="./src/dummy-food.png" alt="">
     <div class="card-desc">
-      <h2>Gyro Sandwich</h2>
-      <div class="rating">⭐ 4.9</div>
+      <h2>Dummy Food</h2>
+      <div class="rating">⭐ 4.7</div>
       <button class="add-to-cart">Add To Cart</button>
       <div class="price">$15.00</div>
     </div>
   </div>`,
     `<div class="card">
-    <img src="./src/f1.png" alt="Gyro Sandwich">
+    <img src="./src/dummy-food.png" alt="">
     <div class="card-desc">
-      <h2>Gyro Sandwich</h2>
-      <div class="rating">⭐ 4.9</div>
+      <h2>Dummy Food</h2>
+      <div class="rating">⭐ 5.0</div>
       <button class="add-to-cart">Add To Cart</button>
       <div class="price">$15.00</div>
     </div>
   </div>`,
     `<div class="card">
-    <img src="./src/f1.png" alt="Gyro Sandwich">
+    <img src="./src/dummy-food.png" alt="">
     <div class="card-desc">
-      <h2>Gyro Sandwich</h2>
-      <div class="rating">⭐ 4.9</div>
+      <h2>Dummy Food</h2>
+      <div class="rating">⭐ 4.7</div>
       <button class="add-to-cart">Add To Cart</button>
       <div class="price">$15.00</div>
     </div>
   </div>`,
     `<div class="card">
-    <img src="./src/f1.png" alt="Gyro Sandwich">
+    <img src="./src/dummy-food.png" alt="">
     <div class="card-desc">
-      <h2>Gyro Sandwich</h2>
-      <div class="rating">⭐ 4.9</div>
+      <h2>Dummy Food</h2>
+      <div class="rating">⭐ 5.0</div>
       <button class="add-to-cart">Add To Cart</button>
       <div class="price">$15.00</div>
     </div>
   </div>`,
     `<div class="card">
-    <img src="./src/f1.png" alt="Gyro Sandwich">
+    <img src="./src/dummy-food.png" alt="">
     <div class="card-desc">
-      <h2>Gyro Sandwich</h2>
-      <div class="rating">⭐ 4.9</div>
+      <h2>Dummy Food</h2>
+      <div class="rating">⭐ 4.7</div>
       <button class="add-to-cart">Add To Cart</button>
       <div class="price">$15.00</div>
     </div>
   </div>`,
     `<div class="card">
-    <img src="./src/f1.png" alt="Gyro Sandwich">
+    <img src="./src/dummy-food.png" alt="">
     <div class="card-desc">
-      <h2>Gyro Sandwich</h2>
-      <div class="rating">⭐ 4.9</div>
+      <h2>Dummy Food</h2>
+      <div class="rating">⭐ 5.0</div>
       <button class="add-to-cart">Add To Cart</button>
       <div class="price">$15.00</div>
     </div>
