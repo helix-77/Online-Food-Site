@@ -1,0 +1,270 @@
+header {
+    margin: 20px 100px;
+    /* border: 1px solid red; */
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-links-container a {
+    text-decoration: none;
+    color: var(--font-color);
+    font-weight: 600;
+}
+
+.search-bar-container {
+    /* border: 1px solid red; */
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.114);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+
+}
+
+
+.search-bar-container input {
+    /* padding: 0px 40px; */
+    border: none;
+    border-right: 1px solid gray;
+    outline: none;
+    /* padding: 10px 20px; */
+    font-weight: 600;
+}
+
+
+/* Banner Container starts */
+
+.banner-container {
+    /* border: 1px solid rgb(36, 230, 104); */
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.left-banner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+
+/* left banner */
+.bike-delivery-container {
+    display: flex;
+    align-items: center;
+    background-color: #f8daba;
+    border-radius: 40px;
+    padding: 5px 15px;
+    max-width: fit-content;
+
+}
+
+.bike-delivery-text {
+    font-size: 16px;
+    color: #f08523;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.bike-delivery-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.bike-delivery-image img{
+    width: 75%;
+    height: 75%;
+} 
+
+
+/* left banner description */
+
+.banner-headline h1 {
+    font-size: 65px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 50px 0px;
+}
+
+#big-bold-text {
+    color: #f08523;
+    font-size: 65px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.banner-headline p {
+    font-weight: 600;
+}
+
+
+/* order banner */
+.order-banner-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.order-now {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px 60px;
+    background: linear-gradient(180deg, #EFAB68 0%, #F48E28 100%);
+    border-radius: 15px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.order-process p{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+
+
+/* right food banner */
+
+.right-banner-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: end;
+    align-content: center;
+    justify-items: center;
+}
+
+.single-food-grid-cont {
+    gap: 20px;
+}
+.single-food-grid-cont img{
+    width: 260px;
+}
+
+.food-desc {
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+.food-desc h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.food-desc h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.food-desc p {
+    font-weight: 600;
+}
+
+
+/* banner footer */
+
+.banner-footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 80px 160px;
+    border-spacing: 20px;
+    margin-bottom: 40px;
+}
+
+.banner-footer-card {
+    text-align: center;
+    /* border: 1px solid #f48e28; */
+}
+
+.banner-footer-card h3{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 0px;
+}
+
+.banner-footer-card p{
+    font-size: 12px;
+}
+
+.vline{
+    border-left: 1px solid #B6B6B6;
+    height: 80px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 576px) and (min-width: 320px){
+    header {
+        margin: 10px 20px;
+    }
+
+    .navbar{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    
+    .search-bar-container input{
+        width: 60px;
+    }    
+
+
+    .banner-container {
+        margin: 50px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .left-banner-container {
+        gap: 0px;
+    }
+
+
+    .banner-headline h1 {
+        font-size: 50px;
+        padding: 40px 0px;
+    }
+
+    #big-bold-text{
+        font-size: 50px;
+    }
+
+    .order-now {
+        padding: 15px 40px;
+        font-size: 13px;
+    }
+
+    .banner-footer-container {
+        padding: 20px 0px;
+    }
+
+    .right-banner-container{
+        grid-template-columns: auto;
+    }
+}
